@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"text","text":"AI系统架构方案","id":"1368072da0b0cce9","x":-491,"y":-520,"width":181,"height":60},
+		{"type":"text","text":"现状分析","id":"cbcf2ac389b9f9b4","x":-761,"y":-414,"width":181,"height":60},
+		{"type":"text","text":"急需解决矿井环境下视频目标检测","id":"4b95082e4ae27b55","x":-491,"y":-414,"width":181,"height":60},
+		{"type":"text","text":"现有研究模型由于缺乏样本，模型跟新慢","id":"eadf88390fd1a215","x":-491,"y":-308,"width":181,"height":60},
+		{"type":"text","text":"业务构想（根据现状提出解决方案或者思路","id":"cb8e41f15bffcc1c","x":-761,"y":-206,"width":181,"height":52},
+		{"type":"text","text":"\n\n算力中心业务构思","id":"865a63c8cb3df012","x":-1000,"y":-204,"width":181,"height":50},
+		{"type":"text","text":"构建煤矿私有数据集，自己训练，提升模型识别能力","id":"ac687493dbc77dec","x":-491,"y":-218,"width":231,"height":76},
+		{"type":"text","text":"形成自己的AI训练平台，将训练好的模型下发至矿端","id":"bd797dcde94dbe8e","x":-497,"y":-112,"width":181,"height":60},
+		{"type":"text","text":"对接各矿智能信息化部门，构建数据市场","id":"addc741e1b0eebcb","x":-497,"y":7,"width":181,"height":60},
+		{"type":"text","text":"开发AI管理平台，用于模型的使用控制以及模型数据等资产管理","id":"166d7e5da23f5e16","x":-497,"y":189,"width":181,"height":60},
+		{"type":"text","text":"建设思路","id":"966a5f9e96619b21","x":-758,"y":94,"width":88,"height":60},
+		{"type":"text","text":"通过高校或企业合作模型训练","id":"9555a185d5d12b0e","x":-497,"y":94,"width":181,"height":60}
+	],
+	"edges":[
+		{"id":"3439ef3f9fb512c7","fromNode":"865a63c8cb3df012","fromSide":"right","toNode":"cbcf2ac389b9f9b4","toSide":"left"},
+		{"id":"054c40d9adc0c803","fromNode":"cbcf2ac389b9f9b4","fromSide":"right","toNode":"1368072da0b0cce9","toSide":"left"},
+		{"id":"5d186fb39ebcdca4","fromNode":"cbcf2ac389b9f9b4","fromSide":"right","toNode":"4b95082e4ae27b55","toSide":"left"},
+		{"id":"7894fdc42e510078","fromNode":"cbcf2ac389b9f9b4","fromSide":"right","toNode":"eadf88390fd1a215","toSide":"left"},
+		{"id":"1dc98d9c5fb028f1","fromNode":"865a63c8cb3df012","fromSide":"right","toNode":"cb8e41f15bffcc1c","toSide":"left"},
+		{"id":"10713383724f59d9","fromNode":"cb8e41f15bffcc1c","fromSide":"right","toNode":"ac687493dbc77dec","toSide":"left"},
+		{"id":"3288905394a80d64","fromNode":"cb8e41f15bffcc1c","fromSide":"right","toNode":"bd797dcde94dbe8e","toSide":"left"},
+		{"id":"90def061748dcfb1","fromNode":"865a63c8cb3df012","fromSide":"right","toNode":"966a5f9e96619b21","toSide":"left"},
+		{"id":"3b021fe670097f9e","fromNode":"966a5f9e96619b21","fromSide":"right","toNode":"addc741e1b0eebcb","toSide":"left"},
+		{"id":"a9ba6dc1fadeeb34","fromNode":"966a5f9e96619b21","fromSide":"right","toNode":"9555a185d5d12b0e","toSide":"left"},
+		{"id":"ce1e698d5eccd6f8","fromNode":"966a5f9e96619b21","fromSide":"right","toNode":"166d7e5da23f5e16","toSide":"left"}
+	]
+}
